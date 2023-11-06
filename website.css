@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin-bottom: 50px;
+}
+header img {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+nav {
+    float: right;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+nav a {
+    font-weight: bold;
+    margin: 40px;
+    text-decoration: none;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+.content {
+    width: 65%;
+    margin: auto;
+}
+
+.part1 {
+    line-height: 130%
+}
+.part1 img {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 20px ;
+}
+.part2 {
+    line-height: 130%
+}
+.part2 img {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 20px ;
+}
+
+
+h1,h3 {
+    margin-top: 50px;
+    text-align:center;
+    color: #443566
+}
