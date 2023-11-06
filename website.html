@@ -11,9 +11,9 @@
         <img src="/img/logo.png" alt=""width="150" height="50">
         <nav>
             <a href="">Home</a>
-            <a href="">Trend</a>
-            <a href="">Buildings</a>
-            <a href="">Explore</a>
+            <a href="#trend-section">Trend</a>
+            <a href="#building-section">Buildings</a>
+            <a href="#explore-section">Explore</a>
             <a href="">Contact</a>
         </nav>
     </header>
@@ -21,7 +21,7 @@
         <img src="/img/banner.png" alt=""width="auto" height="auto">
     </div>
     <div class="content">
-        <div class="part1">
+        <div class="part1" id="trend-section">
             <h1>
                 Trends of sustainability show a lot
             </h1>
@@ -49,7 +49,7 @@
             </div>
             <br><br><br>
         </div>
-        <div class="part2">
+        <div class="part2" id="building-section">
             <h1>
                 Let's take a closer look to the buildings on campus
             </h1>
@@ -71,12 +71,30 @@
                 And compares the weight of Trash and Recycling in each area, which better demonstrates the effectiveness of students and faculties in dealing with waste recycling and play a further motivating role to protect the environment.
             </div>
         </div>
-        <div class="part3">
+        <div class="part3" id="explore-section">
             <h1>
                 Explore: Things you must know
             </h1>
             
         </div>
     </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const trendLink = document.querySelector('a[href="#trend-section"]');
+        
+            trendLink.addEventListener("click", function (e) {
+                e.preventDefault();
+        
+                const targetElement = document.querySelector(this.getAttribute("href"));
+        
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: "smooth"
+                    });
+                }
+            });
+        });
+        </script>
 </body>
 </html>
