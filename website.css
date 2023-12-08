@@ -26,11 +26,7 @@ nav a {
     height: auto;
 }
 .content {
-<<<<<<< HEAD
     width: 60%;
-=======
-    width: 65%;
->>>>>>> main
     margin: auto;
 }
 
@@ -63,7 +59,6 @@ h1,h3 {
     text-align:center;
     color: #443566
 }
-<<<<<<< HEAD
 h2 {
     color: #443566;
     margin-bottom: 25px;
@@ -107,5 +102,3 @@ footer img {
     margin-top: 100px;
 }
 
-=======
->>>>>>> main
